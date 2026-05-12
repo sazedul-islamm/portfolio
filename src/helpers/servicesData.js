@@ -15,10 +15,10 @@ export const services = [
   },
   {
     num: "03",
-    title: "Authentication & Security",
+    title: "AI Integration & Workflow Automation",
     href: "",
     description:
-      "I implement secure authentication and authorization systems using JWT and OAuth (Google, Apple), ensuring safe access control across applications. This includes role-based access control, token lifecycle management, refresh token strategies, and protecting APIs against common security vulnerabilities. Security and data protection are always considered from the design phase.",
+      "I build AI-powered features and automation pipelines that make products smarter and operations faster. This includes OpenAI/LLM integrations, intelligent assistants, content and data processing workflows, prompt-driven APIs, and event-based automation with queues and scheduled jobs. I focus on reliable architecture, observability, and production-ready AI delivery.",
   },
   {
     num: "04",

@@ -1,6 +1,5 @@
 import "../index.css";
-import SiteChrome from "@/components/SiteChrome";
-import Footer from "@/components/Footer";
+import AppShell from "@/components/AppShell";
 
 export const metadata = {
   title: "Sazed Creations",
@@ -10,9 +9,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
-        <SiteChrome>{children}</SiteChrome>
-        <Footer />
+      <body suppressHydrationWarning className="min-h-screen flex flex-col">
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );
